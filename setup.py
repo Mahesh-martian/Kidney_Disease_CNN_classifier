@@ -8,7 +8,7 @@ __version__ = '0.0.0'
 
 REPO_NAME = 'kidney-Disease-Classification-Mlflow-DVC'
 AUTHOR_USER_NAME = 'Mahesh Kumar'
-SRC_REPO = 'Kidney_Disease_CNN_classifier'
+SRC_REPO = 'KidneyCnnClassifier'
 AUTHOR_EMAIL = 'maheshkumar201095@gmail.com'
 
 
@@ -17,7 +17,7 @@ setuptools.setup(
     name = SRC_REPO,
     version = __version__,
     author = AUTHOR_USER_NAME,
-    author_email = AUTHOR_EMAIL_USER,
+    author_email = AUTHOR_EMAIL,
     description = "A small python package for CNN app",
     long_description = long_description,
     url = f'https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}',

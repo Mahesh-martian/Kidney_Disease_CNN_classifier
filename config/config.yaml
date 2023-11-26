@@ -1,0 +1,13 @@
+artifacts_root: artifacts
+# This creates artifacts folder in my working directory and download the data
+
+# basically this is like similar to dictionary where the outer keys are root_dir and 
+# inner key values are root_dir, source_URL ..
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+
+
+

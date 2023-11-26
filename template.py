@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s, at Line no: %(lineno)s')
 
-package_name = 'CNN_classification'
+package_name = 'KidneyCnnClassifier'
 
 list_of_files = [
     ".github/workflows/.gitkeep"
